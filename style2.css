@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+body {
+  font-size: 100%;
+  background: linear-gradient(90deg, rgb(20, 37, 50) 0%, rgb(59, 89, 127) 32%, rgb(108, 153, 149) 100%);
+}
+
+.cabecalho-aboutme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.barra-navegacao {
+  display: flex;
+  margin-left: 1047px;
+  gap: 70px;
+}
+
+.pagina-principal {
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.contact-me {
+  font-family: 'Sarala', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 18px
+}
+
+.titulo-aboutme {
+  display: flex;
+  justify-content: center;
+  top: 150px;
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 75px;
+  line-height: 215px;
+  color: #ffffff;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-secundario-escrito {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #FFF2E7;
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  line-height: 29px;
+  margin-bottom: 125px;
+}
+
+.linha-rodape {
+  border-top: 0.4px solid #FFF2E7;
+}
